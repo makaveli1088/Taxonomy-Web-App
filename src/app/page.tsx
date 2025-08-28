@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, RefreshCw, MonitorSmartphone } from "lucide-react";
