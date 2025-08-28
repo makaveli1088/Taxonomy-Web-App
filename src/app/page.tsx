@@ -1,4 +1,5 @@
 'use client';
+
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, RefreshCw, MonitorSmartphone } from "lucide-react";
@@ -199,7 +200,7 @@ export default function App() {
       </div>
 
       <footer className="text-[11px] text-neutral-400 px-3 py-2 max-w-5xl mx-auto w-full">
-        • Click a What to focus • Whys split left/right with curved connectors • Add video links in LINKS map • v1
+        • Click a What to focus • Whys split left/right with curved connectors • Add video links in LINKS map
       </footer>
     </div>
   );
